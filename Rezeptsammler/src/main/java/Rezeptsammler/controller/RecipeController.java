@@ -8,6 +8,8 @@ import java.util.List;
 @RestController
 public interface RecipeController {
 
+    //RestController anlegen
+
     List<Recipe> getallRecipes();
 
     void addRecipe();
