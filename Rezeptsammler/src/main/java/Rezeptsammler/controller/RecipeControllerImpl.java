@@ -3,6 +3,7 @@ package Rezeptsammler.controller;
 
 import Rezeptsammler.model.Recipe;
 import Rezeptsammler.service.RecipeService;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -18,7 +19,12 @@ public class RecipeControllerImpl implements RecipeController {
     }
 
     @Override
-    public void addRecipe() {
+    public void getRecipe() {
 
+    }
+
+    @GetMapping("/index")
+    public String showForm() {
+        return "index";
     }
 }
