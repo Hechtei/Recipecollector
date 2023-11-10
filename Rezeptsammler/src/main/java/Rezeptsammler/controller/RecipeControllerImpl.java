@@ -19,7 +19,7 @@ public class RecipeControllerImpl implements RecipeController {
     }
 
     @Override
-    public void getRecipe() {
+    public void addRecipe() {
 
     }
 
