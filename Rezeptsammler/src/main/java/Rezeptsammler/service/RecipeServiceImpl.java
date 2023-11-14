@@ -1,6 +1,7 @@
 package Rezeptsammler.service;
 
 import Rezeptsammler.DTO.RecipeDTO;
+import Rezeptsammler.mapper.PrepMapper;
 import Rezeptsammler.mapper.RecipeMapper;
 import Rezeptsammler.model.Recipe;
 import Rezeptsammler.repository.RecipeRepository;
@@ -17,10 +18,12 @@ public class RecipeServiceImpl implements RecipeService {
 
      RecipeMapper recipeMapper;
 
+     PrepMapper prepMapper;
 
-    public RecipeServiceImpl(RecipeRepository recipeRepository, RecipeMapper recipeMapper) {
+    public RecipeServiceImpl(RecipeRepository recipeRepository, RecipeMapper recipeMapper, PrepMapper prepMapper) {
         this.recipeRepository = recipeRepository;
         this.recipeMapper = recipeMapper;
+        this.prepMapper = prepMapper;
     }
 
     @Override
@@ -35,6 +38,7 @@ public class RecipeServiceImpl implements RecipeService {
     @Override
     public RecipeDTO addRecipe(RecipeDTO recipeDTO) {
         Recipe tmp = recipeMapper.recipeDTOToRecipe(recipeDTO);
+
         return recipeMapper.recipeToRecipeDTO(recipeRepository.save(tmp));
 
     }

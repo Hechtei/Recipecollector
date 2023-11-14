@@ -12,7 +12,7 @@ public interface RecipeController {
     //RestController anlegen
 
     @GetMapping
-    List<Recipe> getAllRecipes();
+    List<RecipeDTO> getAllRecipes();
     @PostMapping
     RecipeDTO addRecipe(@RequestBody RecipeDTO recipeDTO);
 
@@ -20,7 +20,7 @@ public interface RecipeController {
     RecipeDTO getRecipeByID(@PathVariable Long recipeId);
 
     @PutMapping("/recipeId")
-    RecipeDTO updateRecipeByID(@PathVariable Long recipeId, @RequestBody RecipeDTO recipeDTO);
+    RecipeDTO updateRecipe(@PathVariable Long recipeId, @RequestBody RecipeDTO recipeDTO);
 
     @DeleteMapping("/{recipeId}")
     void deleteRecipeByID(@PathVariable Long recipeId);

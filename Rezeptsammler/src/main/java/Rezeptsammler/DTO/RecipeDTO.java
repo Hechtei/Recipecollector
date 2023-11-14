@@ -26,10 +26,9 @@ public class RecipeDTO {
 
     private boolean vegan;
 
-    public RecipeDTO(String title, String description, Prep preparation, double rating, int kcal, boolean vegetarian, boolean vegan) {
+    public RecipeDTO(String title, String description, double rating, int kcal, boolean vegetarian, boolean vegan) {
         this.title = title;
         this.description = description;
-        this.preparation = preparation;
         this.rating = rating;
         this.kcal = kcal;
         this.vegetarian = vegetarian;

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/recipes")
 public class RecipeControllerImpl implements RecipeController {
 
      RecipeService recipeService;
@@ -19,27 +19,27 @@ public class RecipeControllerImpl implements RecipeController {
         this.recipeService = recipeService;
     }
     @GetMapping
-    public List<Recipe> getAllRecipes() {
-        return null;
+    public List<RecipeDTO> getAllRecipes() {
+        return recipeService.getAllRecipes();
     }
 
     @PostMapping
     public RecipeDTO addRecipe(@RequestBody RecipeDTO recipeDTO) {
-        return null;
+        return recipeService.addRecipe(recipeDTO);
     }
 
     @GetMapping("/{recipeId}")
     public RecipeDTO getRecipeByID(@PathVariable Long recipeId) {
-        return null;
+        return recipeService.getRecipeById(recipeId);
     }
 
     @PutMapping("/{recipeId}")
-    public RecipeDTO updateRecipeByID(@PathVariable Long recipeId, @RequestBody RecipeDTO recipeDTO) {
-        return null;
+    public RecipeDTO updateRecipe(@PathVariable Long recipeId, @RequestBody RecipeDTO recipeDTO) {
+        return recipeService.updateRecipe(recipeDTO);
     }
 
     @DeleteMapping("/{recipeId}")
     public void deleteRecipeByID(@PathVariable Long recipeId) {
-
+        recipeService.deleteRecipeById(recipeId);
     }
 }

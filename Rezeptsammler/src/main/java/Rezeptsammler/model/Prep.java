@@ -1,5 +1,6 @@
 package Rezeptsammler.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -22,6 +23,7 @@ public class Prep {
     private String complexity;
 
     private String execution;
+
 
 
     @ManyToMany(cascade = CascadeType.ALL)
