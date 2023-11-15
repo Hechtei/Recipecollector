@@ -23,8 +23,8 @@ public class IngredientDTO {
 
     private int amount;
 
-@JsonIgnore
-    private List<PrepDTO> preplist;
+
+
 
 
 }

@@ -22,7 +22,7 @@ public class PrepDTO {
 
     private String execution;
 
-    private Recipe recipe;
+
 
     @JsonIgnore
     private List<IngredientDTO> ingredients;

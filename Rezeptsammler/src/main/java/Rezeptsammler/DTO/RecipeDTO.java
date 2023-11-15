@@ -16,7 +16,7 @@ public class RecipeDTO {
 
     private String description;
 
-    private Prep preparation;
+    private PrepDTO preparation;
 
     private double rating;
 
