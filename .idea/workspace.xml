@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="234629a5-b2e9-4c7a-8652-c791fe435897" name="Changes" comment="Controller">
-      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/test/java/Rezeptsammler/controller/RecipeControllerImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="234629a5-b2e9-4c7a-8652-c791fe435897" name="Changes" comment="added Tests, which still turn red&#10;changed some code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/IngredientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/IngredientDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/PrepDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/PrepDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/RecipeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/RecipeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/mapper/RecipeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/mapper/RecipeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/test/java/Rezeptsammler/controller/RecipeControllerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/test/java/Rezeptsammler/controller/RecipeControllerImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/IngredientDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/IngredientDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/PrepDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/PrepDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/RecipeDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/RecipeDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/PrepMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/PrepMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/PrepMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/PrepMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/RecipeMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/RecipeMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/service/RecipeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/service/RecipeServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +72,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.SpringDataApplication">
+  <component name="RunManager" selected="JUnit.RecipeControllerImplTest.shouldSuccesfullyReturnAllRecipes">
     <configuration name="RecipeControllerImplTest.shouldSuccesfullyReturnAllRecipes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rezeptsammler" />
       <extension name="coverage">
@@ -122,7 +114,7 @@
       <workItem from="1700394939426" duration="2893000" />
       <workItem from="1700481655489" duration="60000" />
       <workItem from="1700481730618" duration="612000" />
-      <workItem from="1700484839146" duration="4747000" />
+      <workItem from="1700484839146" duration="6318000" />
     </task>
     <task id="LOCAL-00001" summary="DTOs created">
       <option name="closed" value="true" />
@@ -172,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699955222220</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added Tests, which still turn red&#10;changed some code">
+      <option name="closed" value="true" />
+      <created>1700489750013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700489750013</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +183,7 @@
     <MESSAGE value="Index test" />
     <MESSAGE value="Service implementiert" />
     <MESSAGE value="Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller" />
+    <MESSAGE value="added Tests, which still turn red&#10;changed some code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Tests, which still turn red&#10;changed some code" />
   </component>
 </project>

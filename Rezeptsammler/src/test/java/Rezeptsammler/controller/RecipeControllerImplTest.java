@@ -41,6 +41,7 @@ public class RecipeControllerImplTest {
     //Test Entities
     private List<RecipeDTO> recipeList;
     private RecipeDTO recipe_01;
+    private RecipeDTO recipe_02;
 
     private final String controllerPath = "/api/recipes";
 
@@ -58,9 +59,10 @@ public class RecipeControllerImplTest {
 
 
         recipe_01 = new RecipeDTO("Banane", "Wie esse ich eine Banane", prepDTO, 5.0, 100, true, true);
-        RecipeDTO recipe_02 = new RecipeDTO("Bananenmilch", "So machst du Bananenmilch", prepDTO_02, 1.0, 200, true, false);
+        recipe_02 = new RecipeDTO("Bananenmilch", "So machst du Bananenmilch", prepDTO_02, 1.0, 200, true, false);
 
         recipe_01.setPreparation(prepDTO);
+        recipe_02.setPreparation(prepDTO_02);
         recipeList = List.of(recipe_01, recipe_02);
     }
 
@@ -73,7 +75,10 @@ public class RecipeControllerImplTest {
                 .andExpect(jsonPath("$.*", hasSize(2)))
                 .andExpect(jsonPath("$[0].title", is(recipe_01.getTitle())))
                 .andExpect(jsonPath("$[0].description", is(recipe_01.getDescription())))
-                .andExpect(jsonPath("$[0].preparation", is(recipe_01.getPreparation())))
+                .andExpect(jsonPath("$[0].preparation.id", is(Long.valueOf(recipe_01.getPreparation().getId()).intValue())))
+                .andExpect(jsonPath("$[0].preparation.portions", is(recipe_01.getPreparation().getPortions())))
+                .andExpect(jsonPath("$[0].preparation.complexity", is(recipe_01.getPreparation().getComplexity())))
+                .andExpect(jsonPath("$[0].preparation.execution", is(recipe_01.getPreparation().getExecution())))
                 .andExpect(jsonPath("$[0].rating", is(recipe_01.getRating())))
                 .andExpect(jsonPath("$[0].kcal", is(recipe_01.getKcal())))
                 .andExpect(jsonPath("$[0].vegetarian", is(recipe_01.isVegetarian())))
