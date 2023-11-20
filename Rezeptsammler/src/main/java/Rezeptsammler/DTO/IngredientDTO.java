@@ -23,8 +23,10 @@ public class IngredientDTO {
 
     private int amount;
 
-
-
-
-
+    public IngredientDTO(long id, String name, String unit, int amount) {
+        this.id = id;
+        this.name = name;
+        this.unit = unit;
+        this.amount = amount;
+    }
 }

@@ -13,14 +13,12 @@ import java.util.List;
 public interface RecipeMapper {
 
 
-    @Mapping(source = "rating", target = "Rating")
-    Recipe recipeDTOToRecipe(RecipeDTO recipeDTO);
-    List<RecipeDTO> recipeDTOsToRecipe(List<Recipe> recipeList);
-
     @InheritInverseConfiguration
     RecipeDTO recipeToRecipeDTO(Recipe recipe);
+    List<RecipeDTO> recipesToRecipesDTO(List<Recipe> recipeList);
 
-    List<RecipeDTO> recipesTORecipeDTO(List<Recipe> recipeList);
+    Recipe recipeDTOToRecipe(RecipeDTO recipeDTO);
+    List<Recipe> recipesDTOToRecipes(List<RecipeDTO> recipeDTOList);
 
 
 }

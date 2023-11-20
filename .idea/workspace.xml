@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="234629a5-b2e9-4c7a-8652-c791fe435897" name="Changes" comment="Controller">
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/test/java/Rezeptsammler/controller/RecipeControllerImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/IngredientDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/IngredientDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/PrepDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/PrepDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/RecipeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/RecipeDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/mapper/RecipeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/mapper/RecipeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/IngredientDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/IngredientDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/PrepDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/PrepDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/RecipeDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/RecipeDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/PrepMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/PrepMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/PrepMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/PrepMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/RecipeMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/RecipeMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,25 +30,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2XyRnGojK5DZ012FNB3jBpRzFRu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,33 +55,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hecht/OneDrive/Desktop/demo (1)/demo/pom.xml&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/I569035/Documents/DHBW/3. Semester/verteilte Systeme/Aufgabe_6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.SpringDataApplication">
+    <configuration name="RecipeControllerImplTest.shouldSuccesfullyReturnAllRecipes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rezeptsammler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Rezeptsammler.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Rezeptsammler.controller" />
+      <option name="MAIN_CLASS_NAME" value="Rezeptsammler.controller.RecipeControllerImplTest" />
+      <option name="METHOD_NAME" value="shouldSuccesfullyReturnAllRecipes" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
+    <configuration name="SpringDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Rezeptsammler" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Rezeptsammler.SpringDataApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RecipeControllerImplTest.shouldSuccesfullyReturnAllRecipes" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,6 +119,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699599498958</updated>
+      <workItem from="1700394939426" duration="2893000" />
+      <workItem from="1700481655489" duration="60000" />
+      <workItem from="1700481730618" duration="612000" />
+      <workItem from="1700484839146" duration="4747000" />
     </task>
     <task id="LOCAL-00001" summary="DTOs created">
       <option name="closed" value="true" />
@@ -136,6 +174,9 @@
     </task>
     <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DTOs created" />

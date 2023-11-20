@@ -28,7 +28,7 @@ public class RecipeServiceImpl implements RecipeService {
 
     @Override
     public List<RecipeDTO> getAllRecipes() {
-        return this.recipeMapper.recipesTORecipeDTO(this.recipeRepository.findAll());
+        return this.recipeMapper.recipesToRecipesDTO(this.recipeRepository.findAll());
     }
 
     @Override //Muss man vielleicht austauschen und den Fall des nicht findens abdecken

@@ -22,7 +22,12 @@ public class PrepDTO {
 
     private String execution;
 
-
+    public PrepDTO(long id, int portions, String complexity, String execution) {
+        this.id = id;
+        this.portions = portions;
+        this.complexity = complexity;
+        this.execution = execution;
+    }
 
     @JsonIgnore
     private List<IngredientDTO> ingredients;
