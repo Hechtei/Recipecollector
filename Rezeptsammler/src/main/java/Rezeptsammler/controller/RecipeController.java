@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
+
 public interface RecipeController {
 
     //RestController anlegen
@@ -19,7 +19,7 @@ public interface RecipeController {
     @GetMapping("/{recipeId}")
     RecipeDTO getRecipeByID(@PathVariable Long recipeId);
 
-    @PutMapping("/recipeId")
+    @PutMapping("/{recipeId}")
     RecipeDTO updateRecipe(@PathVariable Long recipeId, @RequestBody RecipeDTO recipeDTO);
 
     @DeleteMapping("/{recipeId}")

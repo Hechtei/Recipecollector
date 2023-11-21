@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-11-20T15:11:22+0100",
+    date = "2023-11-21T15:16:55+0100",
     comments = "version: 1.4.1.Final, compiler: javac, environment: Java 16.0.2 (Amazon.com Inc.)"
 )
 @Component
@@ -29,6 +29,7 @@ public class RecipeMapperImpl implements RecipeMapper {
 
         recipeDTO.setId( recipe.getId() );
         recipeDTO.setTitle( recipe.getTitle() );
+        recipeDTO.setCook( recipe.getCook() );
         recipeDTO.setDescription( recipe.getDescription() );
         recipeDTO.setPreparation( prepToPrepDTO( recipe.getPreparation() ) );
         recipeDTO.setRating( recipe.getRating() );
@@ -64,6 +65,7 @@ public class RecipeMapperImpl implements RecipeMapper {
         recipe.setId( recipeDTO.getId() );
         recipe.setTitle( recipeDTO.getTitle() );
         recipe.setDescription( recipeDTO.getDescription() );
+        recipe.setCook( recipeDTO.getCook() );
         recipe.setPreparation( prepDTOToPrep( recipeDTO.getPreparation() ) );
         recipe.setRating( recipeDTO.getRating() );
         recipe.setKcal( recipeDTO.getKcal() );

@@ -1,5 +1,6 @@
 package Rezeptsammler.DTO;
 
+import Rezeptsammler.model.Cook;
 import Rezeptsammler.model.Prep;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,6 +17,8 @@ public class RecipeDTO {
 
     private String title;
 
+    private Cook cook;
+
     private String description;
 
     private PrepDTO preparation;
@@ -28,7 +31,8 @@ public class RecipeDTO {
 
     private boolean vegan;
 
-    public RecipeDTO(String title, String description, PrepDTO preparation, double rating, int kcal, boolean vegetarian, boolean vegan) {
+    public RecipeDTO(long id, String title, String description, PrepDTO preparation, double rating, int kcal, boolean vegetarian, boolean vegan) {
+        this.id = id;
         this.title = title;
         this.description = description;
         this.preparation = preparation;

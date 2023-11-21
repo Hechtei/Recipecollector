@@ -21,6 +21,10 @@ public class Recipe {
 
     private String description;
 
+    @ManyToOne( cascade = CascadeType.ALL)
+    @JoinColumn( name="cook_id", nullable = false)
+    private Cook cook;
+
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "preparation_id", nullable = false)
     private Prep preparation;

@@ -57,8 +57,4 @@ public class RecipeServiceImpl implements RecipeService {
             throw new EntityNotFoundException("Rezept nicht gefunden");
         }
     }
-
-    //Hier  Service implementieren : addRecipe, DeleteRecipeByID, getRecipeByID, getAllRecipes,
-
-
 }
