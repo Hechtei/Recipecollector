@@ -4,27 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="234629a5-b2e9-4c7a-8652-c791fe435897" name="Changes" comment="test runs green now yey">
-      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/CookDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/controller/CookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/controller/CookControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/mapper/CookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/model/Cook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/repository/CookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/CookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/CookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/RecipeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/RecipeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/SpringDataApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/SpringDataApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/controller/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/controller/RecipeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/model/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/model/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/test/java/Rezeptsammler/controller/RecipeControllerImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/test/java/Rezeptsammler/controller/RecipeControllerImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/RecipeDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/RecipeDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/PrepMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/PrepMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/RecipeMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/RecipeMapperImpl.java" afterDir="false" />
+    <list default="true" id="234629a5-b2e9-4c7a-8652-c791fe435897" name="Changes" comment="added a cook to the recipes">
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/SpringDataApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/SpringDataApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/controller/RecipeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/controller/RecipeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapperImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/model/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/model/Recipe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/service/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/service/RecipeService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +147,7 @@
       <workItem from="1700481730618" duration="612000" />
       <workItem from="1700484839146" duration="6526000" />
       <workItem from="1700560122436" duration="855000" />
-      <workItem from="1700569943338" duration="6256000" />
+      <workItem from="1700569943338" duration="7296000" />
     </task>
     <task id="LOCAL-00001" summary="DTOs created">
       <option name="closed" value="true" />
@@ -228,7 +213,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700491294835</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added a cook to the recipes">
+      <option name="closed" value="true" />
+      <created>1700576282822</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700576282822</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added a cook to the recipes">
+      <option name="closed" value="true" />
+      <created>1700576553295</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700576553295</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +242,8 @@
     <MESSAGE value="Controller" />
     <MESSAGE value="added Tests, which still turn red&#10;changed some code" />
     <MESSAGE value="test runs green now yey" />
-    <option name="LAST_COMMIT_MESSAGE" value="test runs green now yey" />
+    <MESSAGE value="added a cook to the recipes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a cook to the recipes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
