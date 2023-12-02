@@ -4,12 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="234629a5-b2e9-4c7a-8652-c791fe435897" name="Changes" comment="added a cook to the recipes">
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/SpringDataApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/SpringDataApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/controller/RecipeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/controller/RecipeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/model/Recipe.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/model/Recipe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/service/RecipeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/service/RecipeService.class" afterDir="false" />
+    <list default="true" id="234629a5-b2e9-4c7a-8652-c791fe435897" name="Changes" comment="Controller">
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/controller/ThController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/controller/ThControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/static/pics/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/templates/fragments/createForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/templates/fragments/recipegrid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/CookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/DTO/CookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/ManualTestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/ManualTestBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/model/Cook.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/model/Cook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/service/RecipeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/IngredientDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/PrepDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/DTO/RecipeDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/ManualTestBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/SpringDataApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/controller/RecipeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/controller/RecipeControllerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/PrepMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/PrepMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/mapper/RecipeMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/model/Ingredient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/model/Prep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/model/Recipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/repository/RecipeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/service/RecipeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/Rezeptsammler/service/RecipeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/classes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rezeptsammler/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/CookMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/PrepMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rezeptsammler/target/generated-sources/annotations/Rezeptsammler/mapper/RecipeMapperImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,24 +56,31 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="Rezeptsammler/invalid/JPA" />
+    </ignored-facets>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
   <component name="ProjectId" id="2XyRnGojK5DZ012FNB3jBpRzFRu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,92 +89,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/I569035/Documents/DHBW/3. Semester/verteilte Systeme/Aufgabe_11",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hecht/IdeaProjects/Recipecollector/Rezeptsammler/src/main/resources/static&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.RecipeControllerImplTest">
-    <configuration name="RecipeControllerImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hecht\IdeaProjects\Recipecollector\Rezeptsammler\src\main\resources\static" />
+      <recent name="C:\Users\hecht\IdeaProjects\Recipecollector\Rezeptsammler\src\main\resources\static\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hecht\IdeaProjects\Recipecollector\Rezeptsammler\src\main\resources\templates" />
+      <recent name="C:\Users\hecht\IdeaProjects\Recipecollector\Rezeptsammler\src\main\resources\static\pics" />
+      <recent name="C:\Users\hecht\IdeaProjects\Recipecollector\Rezeptsammler\src\main\resources\static" />
+      <recent name="C:\Users\hecht\IdeaProjects\Recipecollector\Rezeptsammler\src\main\resources\static\js" />
+      <recent name="C:\Users\hecht\IdeaProjects\Recipecollector\Rezeptsammler\src\main\resources\static\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringDataApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rezeptsammler.SpringDataApplication" />
       <module name="Rezeptsammler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Rezeptsammler.controller.*" />
+          <option name="PATTERN" value="Rezeptsammler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Rezeptsammler.controller" />
-      <option name="MAIN_CLASS_NAME" value="Rezeptsammler.controller.RecipeControllerImplTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecipeControllerImplTest.shouldSuccesfullyReturnAllRecipes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Rezeptsammler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Rezeptsammler.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Rezeptsammler.controller" />
-      <option name="MAIN_CLASS_NAME" value="Rezeptsammler.controller.RecipeControllerImplTest" />
-      <option name="METHOD_NAME" value="shouldSuccesfullyReturnAllRecipes" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecipeControllerImplTest.shouldSuccessfullyReturnRecipeById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Rezeptsammler" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Rezeptsammler.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Rezeptsammler.controller" />
-      <option name="MAIN_CLASS_NAME" value="Rezeptsammler.controller.RecipeControllerImplTest" />
-      <option name="METHOD_NAME" value="shouldSuccessfullyReturnRecipeById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="Rezeptsammler" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="Rezeptsammler.SpringDataApplication" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RecipeControllerImplTest" />
-        <item itemvalue="JUnit.RecipeControllerImplTest.shouldSuccessfullyReturnRecipeById" />
-        <item itemvalue="JUnit.RecipeControllerImplTest.shouldSuccesfullyReturnAllRecipes" />
+        <item itemvalue="Application.SpringDataApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -142,12 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699599498958</updated>
-      <workItem from="1700394939426" duration="2893000" />
-      <workItem from="1700481655489" duration="60000" />
-      <workItem from="1700481730618" duration="612000" />
-      <workItem from="1700484839146" duration="6526000" />
-      <workItem from="1700560122436" duration="855000" />
-      <workItem from="1700569943338" duration="7296000" />
     </task>
     <task id="LOCAL-00001" summary="DTOs created">
       <option name="closed" value="true" />
@@ -197,63 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699955222220</updated>
     </task>
-    <task id="LOCAL-00007" summary="added Tests, which still turn red&#10;changed some code">
-      <option name="closed" value="true" />
-      <created>1700489750013</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1700489750013</updated>
-    </task>
-    <task id="LOCAL-00008" summary="test runs green now yey">
-      <option name="closed" value="true" />
-      <created>1700491294835</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1700491294835</updated>
-    </task>
-    <task id="LOCAL-00009" summary="added a cook to the recipes">
-      <option name="closed" value="true" />
-      <created>1700576282822</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1700576282822</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added a cook to the recipes">
-      <option name="closed" value="true" />
-      <created>1700576553295</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1700576553295</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DTOs created" />
     <MESSAGE value="Index test" />
     <MESSAGE value="Service implementiert" />
     <MESSAGE value="Controller" />
-    <MESSAGE value="added Tests, which still turn red&#10;changed some code" />
-    <MESSAGE value="test runs green now yey" />
-    <MESSAGE value="added a cook to the recipes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a cook to the recipes" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Rezeptsammler/src/main/java/Rezeptsammler/model/Cook.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="Controller" />
   </component>
 </project>

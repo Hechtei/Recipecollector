@@ -33,18 +33,7 @@ public class ManualTestBean {
     @EventListener(ApplicationReadyEvent.class)
     public void callController(){
 
-        log.info("_____Test____");
 
-        Ingredient ingredient = new Ingredient("banane", "pices", 1);
-
-        Prep prep = new Prep(1,"easy","But banana Mouth");
-
-        prep.setIngredients(List.of(ingredient));
-
-        Recipe recipe = new Recipe("Banane","Wie esse ich eine Banane", 5.0,100,true,true);
-
-        recipe.setPreparation(prep);
-        this.recipeRepository.saveAll(List.of(recipe));
 
 
     }

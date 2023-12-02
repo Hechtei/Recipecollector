@@ -1,6 +1,8 @@
 package Rezeptsammler.service;
 
+import Rezeptsammler.DTO.CookDTO;
 import Rezeptsammler.DTO.RecipeDTO;
+import Rezeptsammler.mapper.CookMapper;
 import Rezeptsammler.mapper.PrepMapper;
 import Rezeptsammler.mapper.RecipeMapper;
 import Rezeptsammler.model.Recipe;
@@ -20,6 +22,8 @@ public class RecipeServiceImpl implements RecipeService {
 
      PrepMapper prepMapper;
 
+     CookMapper cookMapper;
+
     public RecipeServiceImpl(RecipeRepository recipeRepository, RecipeMapper recipeMapper, PrepMapper prepMapper) {
         this.recipeRepository = recipeRepository;
         this.recipeMapper = recipeMapper;
@@ -30,6 +34,14 @@ public class RecipeServiceImpl implements RecipeService {
     public List<RecipeDTO> getAllRecipes() {
         return this.recipeMapper.recipesToRecipesDTO(this.recipeRepository.findAll());
     }
+
+    @Override
+    public List<RecipeDTO> getAllRecipesByUser(CookDTO cookDTO) {
+        List<Recipe> recipes = recipeRepository.findAll();
+        recipes.removeIf(r -> !r.getCook().equals(cookMapper.cookDTOToCook(cookDTO)));
+        return this.recipeMapper.recipesToRecipesDTO(recipes);
+    }
+
 
     @Override //Muss man vielleicht austauschen und den Fall des nicht findens abdecken
     public RecipeDTO getRecipeById(long id) {

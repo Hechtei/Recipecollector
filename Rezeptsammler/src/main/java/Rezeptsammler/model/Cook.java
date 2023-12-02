@@ -16,18 +16,20 @@ public class Cook {
     @GeneratedValue
     private long id;
 
+
     private String forname;
     private String prename;
-    private int stars;
+    private String username;
+    private String password;
 
-    @OneToMany(mappedBy = "cook",cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "cook", cascade = CascadeType.ALL)
     private List<Recipe> recipes;
 
-    public Cook(long id, String forname, String prename, int stars, List<Recipe> recipes) {
-        this.id = id;
+    public Cook( String forname, String prename, String username, String password) {
+
         this.forname = forname;
         this.prename = prename;
-        this.stars = stars;
-        this.recipes = recipes;
+        this.username = username;
+        this.password = password;
     }
 }

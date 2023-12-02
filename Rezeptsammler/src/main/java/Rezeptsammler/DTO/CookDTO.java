@@ -12,18 +12,17 @@ import java.util.List;
 @NoArgsConstructor
 public class CookDTO {
     private long id;
-
     private String forname;
     private String prename;
-    private int stars;
+    private String username;
+    private String password;
+    private List<RecipeDTO> recipes;
 
-    private List<Recipe> recipes;
-
-    public CookDTO(long id, String forname, String prename, int stars, List<Recipe> recipes) {
+    public CookDTO(long id, String forname, String prename, String username, String password) {
         this.id = id;
         this.forname = forname;
         this.prename = prename;
-        this.stars = stars;
-        this.recipes = recipes;
+        this.username = username;
+        this.password = password;
     }
 }
