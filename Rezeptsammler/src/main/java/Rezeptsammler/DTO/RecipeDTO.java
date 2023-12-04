@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
 
 @Getter
 @Setter
@@ -15,6 +16,7 @@ public class RecipeDTO {
 
     private long id;
 
+    @NotBlank
     private String title;
 
     private Cook cook;
