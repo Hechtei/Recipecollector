@@ -6,6 +6,7 @@ import Rezeptsammler.DTO.RecipeDTO;
 import Rezeptsammler.service.RecipeService;
 import Rezeptsammler.service.RecipeServiceImpl;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.h2.command.dml.Delete;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,8 +19,8 @@ import java.util.List;
 
 import static org.hamcrest.Matchers.*;
 import static org.hamcrest.Matchers.is;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.ArgumentMatchers.anyLong;
+import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -109,6 +110,17 @@ public class RecipeControllerImplTest {
 
         verify(recipeService).getRecipeById(1);
     }
+
+    @Test
+    public void shouldSuccessfullyDeleteRecipe() throws Exception{
+        doNothing().when(recipeService).deleteRecipeById(anyLong());
+        this.mockMvc.perform(delete(controllerPath + "/1"))
+                .andExpect(status().isOk());
+
+        verify(recipeService).deleteRecipeById(anyLong());
+    }
+
+
 
 
 }
